@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <h1>TEXT</h1>
+    <h2>TEXT</h2>
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -28,22 +28,111 @@
 
     <!-- end slipsum code -->
   </body>
-  <h1>TABLE</h1>
+  <h2>TABLE</h2>
   <table>
-    <tr>
+    <thead>
+      <style>
+        .centeralign {
+          text-align: center;
+        }
+      </style>
+      <td colspan="6" class="centeralign">Scores by quarter</td>
+      </thead>
+      <tbody>
       <div>
-      <td><b>Team Name</b></td>
-      </div>
-      </tr>
+      <td colspan="1" rowspan="2"><b>Team Name</b></td>
+      <td colspan="2" rowspan="1"><b>First Half</b></td>
+      <td colspan="2" rowspan="1"><b>Second Half</b></td>
+      <td colspan="1" rowspan="2"><b>Final</b></td>
+    </div>
     <tr>
-      <div>
-      <td>Denver</td>
-      </div>
+      <td>Q1</td>
+      <td>Q2</td>
+      <td>Q3</td>
+      <td>Q4</td>
       </tr>
+      <div>
         <tr>
-        <div>
-      <td>Kansas City</td>
+          <td colspan="1" rowspan="1">Denver</td>
+          <td>7</td>
+          <td>7</td>
+          <td>7</td>
+          <td>7</td>
+          <td>28</td>
+          </tr>
+      <!-- </div>
+        <tr>
+          <td>7</td>
+          <td>7</td>
+          <td>7</td>
+          <td>7</td>
+          <td>28</td>
+          </tr> -->
+      <div>
+        <tr>
+          <td colspan="1" rowspan="1">Kansas City</td>
+          <td>7</td>
+          <td>14</td>
+          <td>7</td>
+          <td>7</td>
+          <td>35</td>
+          </tr>
       </div>
-    </tr>
+      <div>
+        <tr>
+          <td colspan="1" rowspan="1">Final</td>
+          <td>14</td>
+          <td>21</td>
+          <td>14</td>
+          <td>14</td>
+          <td>63</td>
+          </tr>
+        </div>
+      </tbody>
+    <tfoot>
+  </tfoot>
   </table>
+  <h2>LIST</h2>
+  <!-- Start Denver Broncos -->
+    <ul>
+      <li><img src="DenverBroncosImage.png"
+      alt="Denver Broncos Logo"
+      width="75"
+      height="75"
+      <br>
+      <br>
+      <a href="https://www.denverbroncos.com/">Denver Broncos</a></li>
+      <ul>
+        <li>Coach: Vic Fangio</li>
+        <li>QB</li>
+        <ol>
+          <li>Case Keenum</li>
+          <li>Kevin Hogan</li>
+          </ol>
+        </ul>
+      </ul>
+      <!-- end Denver Broncos -->
+      <!-- Start Kansas City Chiefs -->
+      <ul>
+        <li><img src="KansasCityChiefs.png"
+        alt="Kansas City Chiefs Logo"
+        width="75"
+        height="50"
+        <br>
+        <br>
+        <a href="https://www.chiefs.com/">Kansas City Chiefs</a></li>
+        <ul>
+          <li>Coach: Andy Reid</li>
+          <li>QB</li>
+          <ol>
+            <li>Patrick Mahomes</li>
+            <li>Chad Henne</li>
+            </ol>
+          </ul>
+        </ul>
+      <!-- End Kansas City Chiefs -->
+
+      <form input="">
+        <h2>FORM</h2>
+        </form>
 </html>
